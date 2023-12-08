@@ -95,6 +95,7 @@ return {
     local dap = require("dap")
     local Config = require("lazyvim.config")
 
+    vim.fn.sign_define("DapBreakpoint", { text = "B" })
     vim.api.nvim_set_hl(0, "DapStoppedLine", { default = true, link = "Visual" })
 
     for name, sign in pairs(Config.icons.dap) do
