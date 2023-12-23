@@ -25,3 +25,5 @@ vim.keymap.set("n", "zM", ufo.closeAllFolds)
 -- <ap reduce indentation
 -- dap delete paragraph
 -- [|] +b switch buffers
+-- [|] p  paste below o above
+--
