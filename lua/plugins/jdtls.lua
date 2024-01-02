@@ -1,6 +1,5 @@
 return {
 
-  -- add java to treesitter
   {
     "nvim-treesitter/nvim-treesitter",
     opts = function(_, opts)

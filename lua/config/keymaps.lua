@@ -13,9 +13,14 @@ vim.keymap.set("n", "<leader>tkm", "<cmd>Telescope keymaps<cr>")
 vim.keymap.set("n", "<leader>gc", "<plug>NERDCommenterToggle")
 vim.keymap.set("v", "<leader>gc", "<plug>NERDCommenterToggle")
 
+--vim.keymap.set("n", "<leader>mp", "<Plug>MarkdownPreview")
+
 vim.keymap.set("n", "zR", ufo.openAllFolds)
 vim.keymap.set("n", "zM", ufo.closeAllFolds)
 
+-- gx follow link
+-- <leader>gf follow markdown link (obsidean)
+-- <leader>ch toggle checkbox (obsidean)
 -- <leader>gc commenter
 -- <leader>uC change theme
 -- <leader>fb see buffers
@@ -26,4 +31,3 @@ vim.keymap.set("n", "zM", ufo.closeAllFolds)
 -- dap delete paragraph
 -- [|] +b switch buffers
 -- [|] p  paste below o above
---
