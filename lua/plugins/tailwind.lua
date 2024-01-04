@@ -6,11 +6,6 @@ return {
         tailwindcss = {},
       },
     },
-    setup = {
-      jdtls = function()
-        return true -- avoid duplicate servers
-      end,
-    },
   },
   {
     "hrsh7th/nvim-cmp",
